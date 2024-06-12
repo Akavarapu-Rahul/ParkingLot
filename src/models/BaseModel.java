@@ -3,7 +3,7 @@ package models;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 
-public class BaseModel {
+public abstract class BaseModel {
     private int id;
     //auditing columns
     private LocalDateTime createdAt;
